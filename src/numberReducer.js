@@ -6,7 +6,7 @@ const numberReducer = (state, action) => {
             case 'DECREMENT':
                 // return state -1
                 return state - action.val
-                // default:
+                default:
     }
 }
 export default numberReducer;
